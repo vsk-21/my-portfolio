@@ -344,7 +344,7 @@ const App = () => {
   ];
 
   return (
-    <div className="min-h-screen font-inter bg-gray-50 text-gray-900"> {/* Removed dark:bg-gray-900 text-gray-100 */}
+   <div className="min-h-screen font-inter bg-gray-50 text-gray-900 overflow-x-hidden"> {/* Removed dark:bg-gray-900 text-gray-100 */}
       {/* Navigation Bar */}
       <nav className="sticky top-0 z-50 bg-white shadow-md rounded-b-lg p-4 transition-colors duration-300"> {/* Removed dark:bg-gray-800 */}
         <div className="container mx-auto flex justify-between items-center">
