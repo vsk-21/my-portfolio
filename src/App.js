@@ -377,7 +377,7 @@ const App = () => {
           <div className="min-h-screen flex items-center justify-center text-center py-20">
             <div className="max-w-4xl mx-auto">
               <img
-                src="https://placehold.co/150x150/667EEA/FFFFFF?text=Profile"
+                src="profilepic.jpeg"
                 alt="Profile"
                 className="w-40 h-40 rounded-full mx-auto mb-6 shadow-lg border-4 border-indigo-400 transition-transform duration-500 hover:scale-105" // Removed dark:border-indigo-600
               />
@@ -396,7 +396,7 @@ const App = () => {
                   <span>View My Work</span>
                 </button>
                 <a
-                  href="https://example.com/your-resume.pdf" // Placeholder URL
+                  href="\Resume_dotnet.pdf" // Placeholder URL
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2" // Removed dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200
@@ -415,7 +415,7 @@ const App = () => {
           <div className="flex flex-col md:flex-row items-center md:space-x-12 max-w-5xl mx-auto">
             <div className="md:w-1/3 mb-8 md:mb-0">
               <img
-                src="https://placehold.co/300x300/667EEA/FFFFFF?text=About+Me"
+                src="/myphoto.png"
                 alt="About Me"
                 className="w-full h-auto rounded-lg shadow-xl border-4 border-indigo-400 transition-transform duration-500 hover:scale-105" // Removed dark:border-indigo-600
               />
@@ -676,7 +676,7 @@ const App = () => {
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">Find Me On:</h3> {/* Removed dark:text-white */}
               <div className="flex justify-center space-x-6">
                 <a
-                  href="https://github.com/your-username" // Placeholder URL
+                  href="https://github.com/vsk-21/my-portfolio" // Placeholder URL
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-800 hover:text-indigo-600 transition-colors duration-300" // Removed dark:text-gray-300 dark:hover:text-indigo-400
@@ -685,7 +685,7 @@ const App = () => {
                   <Github size={36} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/your-profile" // Placeholder URL
+                  href="https://www.linkedin.com/in/vishal-sinha-39b3771b0" // Placeholder URL
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-800 hover:text-indigo-600 transition-colors duration-300" // Removed dark:text-gray-300 dark:hover:text-indigo-400
@@ -693,18 +693,10 @@ const App = () => {
                 >
                   <Linkedin size={36} />
                 </a>
-                <a
-                  href="https://twitter.com/your-handle" // Placeholder URL
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-800 hover:text-indigo-600 transition-colors duration-300" // Removed dark:text-gray-300 dark:hover:text-indigo-400
-                  aria-label="Twitter Profile"
-                >
-                  <Twitter size={36} />
-                </a>
+               
               </div>
               <p className="text-gray-800 mt-8"> {/* Removed dark:text-gray-300 */}
-                Email: <a href="mailto:vishalsinhadec10@gmail.com" className="text-indigo-700 hover:underline">your.email@example.com</a> {/* Removed dark:text-indigo-400 */}
+                Email: <a href="mailto:vishalsinhadec10@gmail.com" className="text-indigo-700 hover:underline">vishalsinhadec10@gmail.com</a> {/* Removed dark:text-indigo-400 */}
               </p>
             </div>
           </div>
@@ -714,7 +706,7 @@ const App = () => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 rounded-t-lg shadow-inner"> {/* Removed dark:bg-gray-900 */}
         <div className="container mx-auto text-center text-sm">
-          <p className="text-gray-600">&copy; 2025 Vishal Sinha. All rights reserved.</p> {/* Removed dark:text-gray-300 */}
+          <p className="text-gray-600">&copy; 2025. All rights reserved.</p> {/* Removed dark:text-gray-300 */}
           <div className="flex justify-center space-x-4 mt-4">
             {navItems.map((item) => (
               <button
