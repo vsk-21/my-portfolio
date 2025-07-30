@@ -1,0 +1,20 @@
+/* Import Tailwind CSS base styles, components, and utilities */
+
+
+/* Import the Inter font from Google Fonts */
+/* This ensures the font is loaded globally for your application */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Apply the Inter font to the entire body */
+/* This class is also applied in App.js's main div for redundancy/clarity */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
