@@ -346,7 +346,7 @@ const App = () => {
   return (
    <div className="min-h-screen font-inter bg-gray-50 text-gray-900 overflow-x-hidden"> {/* Removed dark:bg-gray-900 text-gray-100 */}
       {/* Navigation Bar */}
-      <nav className="sticky top-0 z-50 bg-white shadow-md rounded-b-lg p-4 transition-colors duration-300"> {/* Removed dark:bg-gray-800 */}
+      <nav className="fixed w-full top-0 z-50 bg-white/80 dark:bg-gray-80/80 backdrop-blur-sm shadow-lg rounded-b-lg p-4 transition-all duration-300"> {/* Removed dark:bg-gray-800 */}
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold text-indigo-600"> {/* Removed dark:text-indigo-400 */}
             Vishal Sinha
@@ -371,7 +371,7 @@ const App = () => {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 mt-20">
         {/* Hero Section */}
         <AnimatedSection id="home" sectionRef={homeRef} scrollDirection={scrollDirection}>
           <div className="min-h-screen flex items-center justify-center text-center py-20">
